@@ -1,0 +1,11 @@
+<h1> Hi! Welcome to Movie app.
+ </h1>
+
+
+
+<h2> Here are all of the movies we have in our database</h2>
+<% @movies.each do |movie| %>
+<div><%= movie.title %></div>
+<% end %>
+
+
